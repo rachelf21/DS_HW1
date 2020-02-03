@@ -16,7 +16,8 @@ public class Assignment1 {
 	}// main
 
 //********************* PRINT BALANCES FOR ALL CUSTOMERS **********************************//
-	public void printBalances() {
+	public void printBalances() throws IOException{
+		BufferedWriter file = new BufferedWriter(new FileWriter("C:\\Users\\rfriedman.MDYSCHOOL\\Desktop\\Java Work\\DS_HW1\\Data_Structures_Assignment_1\\src\\balances.txt"));
 		String custID = "";
 		String companyName = "";
 		double prevBalance = 0;
@@ -38,25 +39,40 @@ public class Assignment1 {
 				} else {
 					System.out.println("\n\nName: " + companyName + "\tID: " + current.getCustID());
 					System.out.println("Previous Balance: " + formatter.format(prevBalance));
+					file.newLine();
+					file.write("\n\nName: " + companyName + "\tID: " + current.getCustID());
+					file.newLine();
+					file.write("Previous Balance: " + formatter.format(prevBalance));
+					file.newLine();
 					for (Order o : orders) {
-						if (o.getCustID().equals(current.getCustID()))
+						if (o.getCustID().equals(current.getCustID())) {
+							file.write(o.toString());
+							file.newLine();
 							System.out.println(o);
+						}
 					}
 					for (Payment p : payments) {
 						if (p.getCustID().equals(current.getCustID())) {
 							paymentTotal += p.getAmount();
+							file.write(p.toString());
+							file.newLine();							
 							System.out.println(p);
 						}
 					}
 					System.out.println("Balance Now Due: " + formatter.format(orderTotal + prevBalance - paymentTotal));
 					System.out.println("\n");
+					file.write("Balance Now Due: " + formatter.format(orderTotal + prevBalance - paymentTotal));
+					for(int z=1;z<5;z++)file.newLine();					
 					orderTotal = next.getTotal(); // starting new balance for next customer
 				}
 			} catch (NullPointerException e) {
+				file.write("\n\nThis customer ID does not exist in the Master file.");
+				for(int z=1;z<5;z++)file.newLine();								
 				System.out.println("\n\nThis customer ID does not exist in the Master file.");
 				orderTotal = next.getTotal();
 			}
 		}
+		file.close();
 	}
 
 //********************* READ TRANSACTION FILE  **********************************//
@@ -67,8 +83,7 @@ public class Assignment1 {
 		String[] token;
 
 		try {
-			File transactionFile = new File(
-					"C:\\Users\\Rachel\\Dropbox\\College\\Brooklyn College\\Data Structures\\Assignment1\\transactions.csv");
+			File transactionFile = new File("C:\\Users\\rfriedman.MDYSCHOOL\\Desktop\\Java Work\\DS_HW1\\Data_Structures_Assignment_1\\src\\transactions.csv");
 			Scanner transactions = new Scanner(transactionFile);
 
 			while (transactions.hasNextLine()) {
@@ -116,8 +131,7 @@ public class Assignment1 {
 		String[] token;
 
 		try {
-			File masterFile = new File(
-					"C:\\Users\\Rachel\\Dropbox\\College\\Brooklyn College\\Data Structures\\Assignment1\\master.csv");
+			File masterFile = new File("C:\\Users\\rfriedman.MDYSCHOOL\\Desktop\\Java Work\\DS_HW1\\Data_Structures_Assignment_1\\src\\master.csv");
 			Scanner master = new Scanner(masterFile);
 
 			while (master.hasNextLine()) {

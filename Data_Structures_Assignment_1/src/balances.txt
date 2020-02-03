@@ -1,0 +1,130 @@
+
+
+
+Name: ABC Computing	ID: 1236
+Previous Balance: $345.89
+ORDER   [Transaction#: 9244 | Item: Dell Inspiron 3583 Notebook | Price: $539.99 | Quantity: 5]
+ORDER   [Transaction#: 9638 | Item: Dell UltraSharp U2419H Full HD 1920 x 1080 | Price: $189.99 | Quantity: 3]
+ORDER   [Transaction#: 9822 | Item: SAMSUNG 398 Series C27F398 27 Full HD 1920 x 1080 | Price: $179.99 | Quantity: 4]
+PAYMENT [Transaction#: 9891 | Amount: $1,000.00]
+PAYMENT [Transaction#: 9743 | Amount: $422.00]
+Balance Now Due: $2,913.77
+
+
+
+
+
+
+Name: Games and Gadgets	ID: 1301
+Previous Balance: $13,670.15
+ORDER   [Transaction#: 9477 | Item: ASUS VivoBook 15 Thin and Light Laptop | Price: $659.99 | Quantity: 3]
+ORDER   [Transaction#: 9360 | Item: Lenovo 100e Chromebook 2nd Gen | Price: $119.99 | Quantity: 9]
+ORDER   [Transaction#: 9930 | Item: Intel Core i9-9820X Skylake X 10-Core 3.3 GHz  | Price: $599.99 | Quantity: 8]
+PAYMENT [Transaction#: 9622 | Amount: $1,200.00]
+PAYMENT [Transaction#: 9688 | Amount: $300.00]
+Balance Now Due: $20,029.95
+
+
+
+
+
+
+Name: Max's Mobile	ID: 1349
+Previous Balance: $805.65
+ORDER   [Transaction#: 9317 | Item: ASUS AMD AM4 ROG Strix X570-E Gaming ATX Motherboard | Price: $299.99 | Quantity: 1]
+ORDER   [Transaction#: 9451 | Item: SanDisk 128GB Ultra Flair CZ73 USB 3.0 Flash Drive | Price: $17.65 | Quantity: 24]
+ORDER   [Transaction#: 9750 | Item: GeForce RTX 2070 SUPER XC ULTRA GAMING | Price: $549.99 | Quantity: 5]
+ORDER   [Transaction#: 9977 | Item: Seasonic PRIME Ultra 550W 80+ Platinum Power Supply | Price: $121.99 | Quantity: 3]
+PAYMENT [Transaction#: 9502 | Amount: $875.70]
+Balance Now Due: $3,769.46
+
+
+
+
+
+
+Name: Techaholic	ID: 1380
+Previous Balance: $1,500.32
+ORDER   [Transaction#: 9317 | Item: Creative Sound Blaster Zx 116dB PCIe Gaming Sound Card | Price: $149.99 | Quantity: 9]
+ORDER   [Transaction#: 9970 | Item: ASUS - Gaming Desktop PC - Intel Core i5-9400F | Price: $815.99 | Quantity: 4]
+ORDER   [Transaction#: 9989 | Item: DELL Laptop XPS XPS9370-7040SLV | Price: $1,889.99 | Quantity: 1]
+PAYMENT [Transaction#: 9010 | Amount: $750.45]
+Balance Now Due: $7,253.73
+
+
+
+
+
+
+Name: Wired	ID: 1522
+Previous Balance: $1,298.75
+ORDER   [Transaction#: 9487 | Item: Intel Core i9-9900K 8-Core processor | Price: $524.99 | Quantity: 4]
+ORDER   [Transaction#: 9109 | Item: Dell Inspiron 3583 Notebook | Price: $539.99 | Quantity: 2]
+ORDER   [Transaction#: 9577 | Item: Dell UltraSharp U2419H Full HD 1920 x 1080 | Price: $189.99 | Quantity: 5]
+PAYMENT [Transaction#: 9884 | Amount: $500.00]
+Balance Now Due: $4,928.64
+
+
+
+
+
+This customer ID does not exist in the Master file.
+
+
+
+
+
+
+Name: Tech Inc	ID: 1546
+Previous Balance: $1,898.99
+ORDER   [Transaction#: 9715 | Item: ASUS VivoBook 15 Thin and Light Laptop | Price: $659.99 | Quantity: 6]
+ORDER   [Transaction#: 9580 | Item: Lenovo 100e Chromebook 2nd Gen | Price: $119.99 | Quantity: 1]
+ORDER   [Transaction#: 9438 | Item: Intel Core i9-9820X Skylake X 10-Core 3.3 GHz  | Price: $599.99 | Quantity: 8]
+PAYMENT [Transaction#: 9628 | Amount: $100.00]
+PAYMENT [Transaction#: 9769 | Amount: $250.00]
+Balance Now Due: $10,428.84
+
+
+
+
+
+
+Name: Fast Fix	ID: 1626
+Previous Balance: $10.00
+ORDER   [Transaction#: 9611 | Item: Creative Sound Blaster Zx 116dB PCIe Gaming Sound Card | Price: $149.99 | Quantity: 5]
+ORDER   [Transaction#: 9660 | Item: Seasonic PRIME Ultra 550W 80+ Platinum Power Supply | Price: $121.99 | Quantity: 6]
+ORDER   [Transaction#: 9557 | Item: Creative Sound Blaster Zx 116dB PCIe Gaming Sound Card | Price: $149.99 | Quantity: 9]
+ORDER   [Transaction#: 9876 | Item: ASUS - Gaming Desktop PC - Intel Core i5-9400F | Price: $815.99 | Quantity: 2]
+ORDER   [Transaction#: 9653 | Item: DELL Laptop XPS XPS9370-7040SLV | Price: $1,889.99 | Quantity: 2]
+PAYMENT [Transaction#: 9546 | Amount: $500.00]
+Balance Now Due: $7,753.76
+
+
+
+
+
+
+Name: Dollar Devices	ID: 1711
+Previous Balance: $1,494.10
+ORDER   [Transaction#: 9405 | Item: Lenovo 100e Chromebook 2nd Gen | Price: $119.99 | Quantity: 10]
+ORDER   [Transaction#: 9142 | Item: Intel Core i9-9820X Skylake X 10-Core 3.3 GHz  | Price: $599.99 | Quantity: 5]
+ORDER   [Transaction#: 9241 | Item: Intel Z390 SATA 6Gb USB 3.1 ATX Intel Motherboard | Price: $125.99 | Quantity: 1]
+PAYMENT [Transaction#: 9875 | Amount: $870.00]
+Balance Now Due: $4,949.94
+
+
+
+
+
+
+Name: Best Buy	ID: 1808
+Previous Balance: $650.00
+ORDER   [Transaction#: 9045 | Item: ASUS AMD AM4 ROG Strix X570-E Gaming ATX Motherboard | Price: $299.99 | Quantity: 3]
+ORDER   [Transaction#: 9636 | Item: SanDisk 128GB Ultra Flair CZ73 USB 3.0 Flash Drive | Price: $17.65 | Quantity: 50]
+ORDER   [Transaction#: 9432 | Item: GeForce RTX 2070 SUPER XC ULTRA GAMING | Price: $549.99 | Quantity: 7]
+ORDER   [Transaction#: 9319 | Item: Seasonic PRIME Ultra 550W 80+ Platinum Power Supply | Price: $121.99 | Quantity: 4]
+PAYMENT [Transaction#: 9711 | Amount: $3,000.00]
+Balance Now Due: $3,770.36
+
+
+
